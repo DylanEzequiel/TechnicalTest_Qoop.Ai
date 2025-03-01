@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="278.594" y1="150.286" x2="278.594" y2="295.777" id="gradient-1" gradientTransform="matrix(1.865378, -1.523472, 1.208847, 1.149373, -542.609802, 377.111586)">
+      <stop offset="0" style="stop-color: rgb(203, 255, 34);"/>
+      <stop offset="1" style="stop-color: rgb(9, 164, 26);"/>
+    </linearGradient>
+    <polyline style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" points="278.905 299.161 279.141 337.744 279.615 298.215 278.431 335.377"/>
+    <path d="M 278.668 335.613 L 278.668 300.345 L 214.759 285.196 L 207.895 265.55"/>
+    <polyline style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" points="280.798 337.034 232.748 341.294 285.769 322.121 278.195 337.507"/>
+    <polyline style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" points="278.431 295.611 278.668 334.43 279.615 336.323 278.905 301.055"/>
+    <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" d="M 278.668 298.688 L 278.905 337.27 L 311.806 324.962 L 301.865 327.539 L 282.455 324.936"/>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="99.498" y1="183.363" x2="99.498" y2="363.91" id="gradient-0" gradientTransform="matrix(2.537479, -1.141619, 0.309209, 0.558688, -90.264381, 190.787736)">
+      <stop offset="0" style="stop-color: rgb(255, 224, 104);"/>
+      <stop offset="1" style="stop-color: rgb(255, 169, 0);"/>
+    </linearGradient>
+  </defs>
+  <path style="stroke: rgb(4, 40, 28); stroke-width: 4px; paint-order: fill; fill: url(&quot;#gradient-1&quot;); transform-origin: 243.373px 209.413px;" d="M 237.542 368.123 C 321.584 387.145 434.011 240.022 375.513 129.301 C 348.866 78.868 311.154 50.656 249.165 48.98 C 138.662 45.986 72.767 183.96 108.655 279.672 C 118.085 304.825 141.937 334.584 169.022 345.968"/>
+  <line style="fill: rgb(216, 216, 216); stroke-linecap: round; stroke: rgb(4, 40, 28); stroke-width: 6px; transform-origin: 243.032px 414.126px;" x1="236.915" y1="370.101" x2="232.981" y2="458.357"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(4, 40, 28); stroke-width: 6px; stroke-linecap: round; transform-origin: 263.562px 494.2px;" x1="162.52" y1="494.487" x2="340.626" y2="493.927"/>
+  <line style="fill: rgb(216, 216, 216); stroke-width: 6px; stroke: rgb(4, 40, 28); stroke-linecap: round; transform-origin: 144.523px 493.849px;" x1="121.134" y1="494.804" x2="144.017" y2="494.499"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(4, 40, 28); stroke-linecap: round; stroke-width: 4px; transform-origin: 243.152px 205.509px;" x1="239.092" y1="347.925" x2="251.796" y2="63.091"/>
+  <path style="paint-order: stroke; stroke-linecap: round; fill: none; stroke-width: 4px; stroke: rgb(4, 40, 28); transform-origin: 252.243px 289.012px;" d="M 200.006 267.883 L 241.701 310.726 L 302.355 268.441"/>
+  <path style="fill: none; stroke-width: 4px; stroke: rgb(4, 40, 28); transform-origin: 252.757px 183.269px;" d="M 196.153 163.013 L 248.35 204.081 L 317.503 162.538"/>
+  <path style="stroke: rgb(255, 255, 255); stroke-width: 3px; fill: url(&quot;#gradient-0&quot;); transform-origin: 254.7px 220.779px;" d="M 170.572 248.902 L 329.944 0.593 L 270.067 187.819 L 341.688 188.136 L 173.323 440.906 L 226.571 261.392 L 170.572 248.902 Z"/>
+</svg>
