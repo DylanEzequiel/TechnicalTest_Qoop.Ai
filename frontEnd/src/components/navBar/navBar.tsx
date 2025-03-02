@@ -15,11 +15,10 @@ function NavBar():React.ReactElement {
         <SiGumtree size={30} className='hover:text-green-500 active:text-green-500 transition-all duration-200'/>
       </div>
 
-      <ul className='hidden lg:flex flex-row text-black dark:text-white text-center'>
-        <li  className='p-2 hover:text-green-500 hover:underline transition-all duration-200'> <a href="">link</a></li>
-        <li  className='p-2 hover:text-green-500 hover:underline transition-all duration-200'> <a href="">link 2</a></li>
-        <li  className='p-2 hover:text-green-500 hover:underline transition-all duration-200'> <a href="">link 3</a></li>
-        <li  className='p-2 hover:text-green-500 hover:underline transition-all duration-200'> <a href="">link 4</a></li>
+      <ul className='hidden lg:flex flex-row font-semibold text-black dark:text-white text-center'>
+        <li  className='p-2 hover:text-green-500 hover:underline transition-all duration-200'> <a href="">Feats</a></li>
+        <li  className='p-2 hover:text-green-500 hover:underline transition-all duration-200'> <a href="">Clients</a></li>
+        <li  className='p-2 hover:text-green-500 hover:underline transition-all duration-200'> <a href="">Pricing</a></li>
       </ul>
       <ResponsiveNavbar/>
       

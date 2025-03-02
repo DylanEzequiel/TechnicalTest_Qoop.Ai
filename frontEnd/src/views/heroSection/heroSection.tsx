@@ -11,7 +11,7 @@ function HeroSection():React.ReactElement {
         version="1.1"
         className='top-0 z-0 absolute bg-orange-200 dark:bg-[#192d3d] w-full max-w-[1400px] h-full md:h-max overflow-hidden'
       >
-        <rect x="0" y="0" className='fill-orange-200 dark:fill-[#192d3d] w-full max-w-[1400px] h-full overflow-hidden translate-y-[calc(100%)] md:translate-y-0' />
+        <rect x="0" y="0" className='fill-orange-200 dark:fill-[#192d3d] w-full max-w-[1400px] h-full overflow-hidden translate-y-[calc(100%)] lg:translate-y-0' />
 
         <motion.path
           d="M0 421L21.5 419.7C43 418.3 86 415.7 128.8 412.5C171.7 409.3 214.3 405.7 257.2 395.5C300 385.3 343 368.7 385.8 364.3C428.7 360 471.3 368 514.2 370.5C557 373 600 370 642.8 377.7C685.7 385.3 728.3 403.7 771.2 402.8C814 402 857 382 878.5 372L900 362L900 601L0 601Z"
@@ -19,13 +19,13 @@ function HeroSection():React.ReactElement {
           initial={{ y: 0 }}
           animate={{ y: [10, 0, 10] }}
           transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
-          className="w-full translate-y-[calc(100%)] md:translate-y-0"
+          className="w-full translate-y-[calc(100%)] lg:translate-y-0"
         />
 
         <path
           d="M0 422L21.5 421.7C43 421.3 86 420.7 128.8 422.2C171.7 423.7 214.3 427.3 257.2 428.5C300 429.7 343 428.3 385.8 432.3C428.7 436.3 471.3 445.7 514.2 450.7C557 455.7 600 456.3 642.8 456.7C685.7 457 728.3 457 771.2 458.5C814 460 857 463 878.5 464.5L900 466L900 601L0 601Z"
           fill="#6bd36e"
-          className="w-full translate-y-[calc(100%)] md:translate-y-0"
+          className="w-full translate-y-[calc(100%)] lg:translate-y-0"
         />
       </svg>
 
