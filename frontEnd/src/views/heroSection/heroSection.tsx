@@ -33,7 +33,7 @@ function HeroSection():React.ReactElement {
         <article className='flex flex-col gap-4 pt-30 lg:pt-50 pl-4 lg:pl-20 text-pretty'>
           <h1 className='font-semibold text-4xl lg:text-6xl'>Eco Charge</h1>
           <h2 className='font-medium md:text-xl'>We provide sustainable solar solutions to keep you connected anywhere, anytime.</h2>
-          <button onClick={()=>console.log("click")} className='bg-orange-500 px-4 py-2 rounded-full w-max font-semibold text-white'>See More</button>
+          <button onClick={() => console.log("click")} className='bg-orange-500 hover:bg-orange-600 active:bg-orange-700 px-4 py-2 rounded-full w-max font-semibold text-white'>See More</button>
         </article>
       </main>
     </div>
