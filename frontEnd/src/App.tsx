@@ -4,7 +4,7 @@ import Footer from './components/footer/footer'
 import HeroSection from './views/heroSection/heroSection'
 import Pricing from './views/pricing/pricing'
 import Testimonys from './views/testimonys/testimonys'
-import Features from './views/Features/Features'
+import Features from './views/Features/Features.tsx'
 
 function App():React.ReactElement {
 
