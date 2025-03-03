@@ -32,7 +32,7 @@ function ContactForm():React.ReactElement {
             <p className="font-semibold text-green-500"> Your message has been sent successfully!</p>
         )
         :
-      <form className="space-y-4 mt-4" onSubmit={handleSubmit}>
+      <form className="space-y-8 mt-4" onSubmit={handleSubmit}>
           <div>
               <label className="block font-medium text-gray-800 dark:text-white text-lg">Name</label>
               <input
@@ -44,7 +44,7 @@ function ContactForm():React.ReactElement {
                   placeholder="John Doe"
                   required
                   />
-                      <p className='font-bold text-[#ff8801] text-md'>{errors.name}</p>
+                      <p className='absolute font-bold text-[#ff8801] text-md'>{errors.name}</p>
           </div>
           <div>
               <label className="block font-medium text-gray-800 dark:text-white text-lg">Email</label>
@@ -57,7 +57,7 @@ function ContactForm():React.ReactElement {
                   placeholder="johndoe@example.com"
                   required
                   />
-                      <p className='font-bold text-[#ff8801] text-md'>{errors.email}</p>
+                      <p className='absolute font-bold text-[#ff8801] text-md'>{errors.email}</p>
 
           </div>
           <div>
@@ -72,7 +72,7 @@ function ContactForm():React.ReactElement {
                   placeholder="Write your message here"
                   required
                   ></textarea>
-                      <p className='font-bold text-[#ff8801] text-md'>{errors.body}</p>
+                      <p className='absolute font-bold text-[#ff8801] text-md'>{errors.body}</p>
 
           </div>
           <button

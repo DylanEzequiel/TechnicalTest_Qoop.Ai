@@ -18,6 +18,13 @@ function ResponsiveNavbar():React.ReactElement {
                     animate={{ y: 0, opacity: 1 }} 
                     transition={{ duration: .1 }} 
                     className='hover:bg-blue-300 active:bg-blue-300 p-2 transition-all duration-200'> 
+                      <a href="#Home">Home</a>
+                  </motion.li>
+                  <motion.li 
+                    initial={{ y: 50, opacity: 0 }} 
+                    animate={{ y: 0, opacity: 1 }} 
+                    transition={{ duration: .1 }} 
+                    className='hover:bg-blue-300 active:bg-blue-300 p-2 transition-all duration-200'> 
                       <a href="#Feats">Feats</a>
                   </motion.li>
 

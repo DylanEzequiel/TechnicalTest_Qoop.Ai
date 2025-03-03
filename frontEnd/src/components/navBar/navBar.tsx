@@ -1,8 +1,8 @@
 import React from 'react'
-import { SiGumtree } from 'react-icons/si'
 import ResponsiveNavbar from './ResponsiveComp/ResponsiveNavbar'
 import { HiOutlineSun } from 'react-icons/hi';
 import { BsMoonStars } from 'react-icons/bs';
+import { PiTreeFill } from 'react-icons/pi';
 
 function NavBar():React.ReactElement {
   const [dark, setDark] = React.useState(false);
@@ -12,7 +12,7 @@ function NavBar():React.ReactElement {
     document.body.classList.toggle("dark");
   }
   return (
-    <header className='z-50 fixed flex flex-row justify-between items-center bg-gray-700/30 shadow-2xl shadow-black backdrop-blur-xl p-2 w-full h-12'>
+    <header className='z-50 fixed flex flex-row justify-between items-center bg-gray-700/30 shadow-gray-800/40 shadow-lg backdrop-blur-xl p-2 w-full h-12'>
 
       <div className='flex justify-start w-1/3' onClick={darkModeHandler}>
         {dark ? (
@@ -23,7 +23,7 @@ function NavBar():React.ReactElement {
       </div>
 
       <div className='flex justify-center w-1/3'>
-        <SiGumtree size={30} className='hover:text-green-500 active:text-green-500 transition-all duration-200' />
+        <PiTreeFill size={30} className='hover:text-green-500 active:text-green-500 transition-all duration-200' />
       </div>
 
       <div className='flex justify-end w-1/3'>

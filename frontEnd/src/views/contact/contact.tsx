@@ -19,7 +19,7 @@ function Contact():React.ReactElement {
         </h3>
       </header>
 
-      <article className="group relative flex md:flex-row flex-col items-center gap-6 bg-white/30 shadow-gray-600/40 shadow-lg hover:shadow-lg dark:shadow-gray-300/40 mt-10 p-6 rounded-lg w-full max-w-4xl duration-200">
+      <article className="group relative flex md:flex-row flex-col items-center gap-6 bg-white/20 dark:bg-gray-600/80 shadow-gray-600/40 shadow-lg hover:shadow-lg dark:shadow-gray-300/40 backdrop-blur-xl mt-10 p-6 rounded-lg w-full max-w-4xl duration-200">
         <div className="w-full md:w-1/2">
           <ContactForm/>
         </div>

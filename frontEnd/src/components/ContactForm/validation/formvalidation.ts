@@ -25,7 +25,7 @@ export default function Validatior({name,email,body}:IValidator){
 
     if(body.length >2){
         if(body.length>2500){errors.body="Message is too long sorry"}
-        if(body.length<25){errors.body="Message is too short sorry"}
+        if(body.length<15){errors.body="Message is too short sorry"}
     }
     
     return errors
