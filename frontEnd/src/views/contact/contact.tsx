@@ -1,15 +1,10 @@
-import React, { useState } from 'react'
-import { MdPermPhoneMsg } from 'react-icons/md'
+import React from 'react'
 import {motion} from "motion/react"
 import ContactForm from '../../components/ContactForm/ContactForm';
 
 
 function Contact():React.ReactElement {
-  const [submitted, setSubmitted] = useState<boolean>(false);
-
-  function handleSubmit(){
-    setSubmitted(true)
-  }
+  
 
   return (
     <motion.main 
@@ -20,7 +15,7 @@ function Contact():React.ReactElement {
       className="group relative flex flex-col items-center px-4 py-16">
       <header>
         <h3 className="font-semibold text-gray-800 dark:text-white text-4xl text-center">
-          <MdPermPhoneMsg className="inline" size={30} /> Contact Our Team
+          Contact Our Team
         </h3>
       </header>
 

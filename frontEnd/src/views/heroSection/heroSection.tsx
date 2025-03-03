@@ -3,7 +3,8 @@ import {motion} from "motion/react"
 
 function HeroSection():React.ReactElement {
   return (
-    <div className='relative bg-orange-200 dark:bg-[#192d3d] h-screen duration-500'>
+    <div id='Home' className='z-40 relative bg-orange-200 dark:bg-[#192d3d] h-max duration-500'>
+      <div className='top-0 right-0 z-40 absolute bg-yellow-400 dark:bg-white/80 shadow-amber-300 shadow-lg dark:shadow-white rounded-full w-40 h-40'></div>
       <svg
         id="visual"
         viewBox="0 0 900 600"
@@ -29,7 +30,7 @@ function HeroSection():React.ReactElement {
         />
       </svg>
 
-      <main className='z-10 relative flex h-screen'>
+      <main className='z-10 relative flex h-[1200px]'>
         <article className='flex flex-col gap-4 pt-30 lg:pt-50 pl-4 lg:pl-20 text-pretty'>
           <h1 className='font-semibold text-4xl lg:text-6xl'>Eco Charge</h1>
           <h2 className='font-medium md:text-xl'>We provide sustainable solar solutions to keep you connected anywhere, anytime.</h2>

@@ -35,7 +35,7 @@ function Testimonys():React.ReactElement {
 },[])
 
   return (
-    <article>
+    <article id='Clients' className='py-10'>
       <h2 className='pt-10 font-semibold text-4xl text-center'>Powering Lives, One Charge at a Time</h2>
       <main className='items-center py-20 w-full text-center'>
         {isLoading || clientComment.length<1 ?
@@ -46,7 +46,7 @@ function Testimonys():React.ReactElement {
           >
             <CgSpinnerTwo size={50}/>
           </motion.div> :
-          <div className='flex flex-row flex-wrap gap-8 md:gap-4 p-4'>
+          <div className='gap-8 md:gap-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-4'>
             {clientComment.map(coment=>{
               return (
               <TestimonyComp id={coment.id} name={coment.name} email={coment.email} body={coment.body}/>

@@ -6,7 +6,7 @@ import { BsBackpack2Fill } from 'react-icons/bs'
 
 function Features():React.ReactElement {
   return (
-    <main className='px-6 md:px-4 h-max'>
+    <main className='px-6 md:px-4 py-10 h-max' id='Feats'>
       <h2 className='pt-10 font-semibold text-4xl text-center'>What Makes EcoCharge the Best Choice?</h2>
       <article  className='flex md:flex-row flex-col flex-wrap justify-between items-center gap-4 md:gap-2 py-36'>
         <FeatureComponent title="Eco-Friendly energy" description="Our solar panels use renewable energy to power your devices sustainably.">

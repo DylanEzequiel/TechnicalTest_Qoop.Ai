@@ -18,7 +18,8 @@ function TestimonyComp({id,name,email,body}:ITestimonyComp):React.ReactElement {
             transition={{ duration: 1, ease: "easeOut" }}
             viewport={{once:true}}
             key={id.toString()}
-      className="flex-col items-start gap-4 bg-gray-50 dark:bg-gray-700 shadow-gray-500 shadow-lg dark:shadow-gray-700 mx-auto p-4 rounded-lg w-full max-w-lg text-left">
+      className="flex-col justify-between items-start gap-4 bg-gray-50 dark:bg-gray-700 shadow-gray-500 shadow-lg dark:shadow-gray-700 mx-auto p-4 rounded-lg w-full max-w-lg text-left">
+
             <div className='flex flex-row justify-between items-center gap-4'>
                 <div className="flex justify-center items-center bg-blue-500 rounded-full w-12 h-12 font-bold text-white text-lg">
                         {name.charAt(0).toUpperCase()}
@@ -26,10 +27,14 @@ function TestimonyComp({id,name,email,body}:ITestimonyComp):React.ReactElement {
               <Rate disabled defaultValue={(Math.floor(Math.random() *100/5 ))}/>
             </div>
 
-            <div className="flex flex-col justify-end items-start">
-                <p className="py-4 text-gray-700 dark:text-gray-300">{body}</p>
-                <b className="font-semibold text-lg">{name}</b>
-                <i className="text-gray-500 dark:text-gray-400 text-sm">{email}</i>
+            <div className="flex flex-col justify-between items-start">
+                <p className="p-2 text-gray-700 dark:text-gray-300">{body}</p>
+            
+            </div>
+
+            <div className='flex flex-col items-baseline'>
+              <b className="font-semibold text-lg">{name}</b>
+              <i className="text-gray-500 dark:text-gray-400 text-sm">{email}</i>
             </div>
       </motion.div>
   )

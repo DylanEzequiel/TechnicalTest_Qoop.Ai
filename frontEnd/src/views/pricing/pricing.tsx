@@ -3,7 +3,7 @@ import PriceComp from '../../components/PriceComp/PriceComp'
 
 function Pricing():React.ReactElement {
   return (
-    <article className='min-h-svh'>
+    <article className='py-10' id='Pricing'>
       <main><h2 className='pt-10 font-semibold text-4xl text-center'>Flexible Solar Plans for Every Lifestyle</h2></main>
       <aside className='flex flex-row flex-wrap justify-center gap-6 p-4 py-20'>
         <PriceComp title="Basic" price='$19.99' desc='Access to solar energy for small devices, limited battery storage.' characteristics={["Solar-Powered Charging", "Limited Battery Storage", "Entry-Level Plan","Eco-Friendly Solution"]} bestseller={false}/>

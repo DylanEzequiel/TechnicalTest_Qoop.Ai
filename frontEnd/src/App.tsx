@@ -6,15 +6,17 @@ import Pricing from './views/pricing/pricing'
 import Testimonys from './views/testimonys/testimonys'
 import Features from './views/Features/Features.tsx'
 import Contact from './views/contact/contact.tsx'
+// import ParallaxSection from './components/bgComponent.tsx'
 
 function App():React.ReactElement {
 
 
   return (
-    <div className='flex flex-col w-full max-w-[1400px] h-screen min-h-screen text-gray-700 dark:text-white'>
+    <div className='flex flex-col items-center bg-orange-200 dark:bg-[#192d3d] w-full min-h-screen text-gray-700 dark:text-white'>
       <NavBar/>
-      <main className='bg-orange-200 dark:bg-[#192d3d]'>
+      <main className='z-40 max-w-[1400px]'>
             <HeroSection/>
+            {/* <ParallaxSection/> */}
             <Features/>
             <Testimonys/>
             <Pricing/>
