@@ -4,8 +4,8 @@ import Footer from './components/footer/footer'
 import HeroSection from './views/heroSection/heroSection'
 import Pricing from './views/pricing/pricing'
 import Testimonys from './views/testimonys/testimonys'
-import Features from './views/Features/Features.tsx'
 import Contact from './views/contact/contact.tsx'
+import Features from './views/Features/Features.tsx'
 // import ParallaxSection from './components/bgComponent.tsx'
 
 function App():React.ReactElement {
