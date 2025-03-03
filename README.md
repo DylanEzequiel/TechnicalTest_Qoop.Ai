@@ -1,7 +1,7 @@
 
 # Technical Test - Qoop.AI (Frontend)
 
-This project is a **frontend application** built with **React** and **Tailwind CSS**. It is designed to provide an interactive user interface that incorporates visual effects like **parallax scrolling** to create a dynamic user experience. The project utilizes **Framer Motion** for animations, **Vite** as the bundler, and **Ant Design** for UI components. Additionally, the project is configured with **TypeScript** and includes **ESLint** for linting support.
+This project is a **frontend application** built with **React** and **Tailwind CSS**. It is designed to provide an interactive user interface that incorporates visual effects like **parallax scrolling** to create a dynamic user experience. The project utilizes **Framer Motion** for animations and **Ant Design** for UI components. Additionally, the project is configured with **TypeScript**.
 
 ## Project Overview
 
@@ -12,7 +12,6 @@ This is a **Technical Test** for **Qoop.AI**, showcasing the ability to create a
 - **React** - JavaScript library for building user interfaces.
 - **Tailwind CSS** - Utility-first CSS framework for custom design.
 - **Framer Motion** - Animation library for React to add smooth animations and transitions.
-- **Vite** - Next-generation, fast build tool.
 - **TypeScript** - Typed superset of JavaScript for type safety.
 - **Ant Design** - UI component library for React.
 
