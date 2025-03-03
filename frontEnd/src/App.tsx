@@ -5,7 +5,7 @@ import HeroSection from './views/heroSection/heroSection'
 import Pricing from './views/pricing/pricing'
 import Testimonys from './views/testimonys/testimonys'
 import Contact from './views/contact/contact.tsx'
-import Features from './views/Features/Features.tsx'
+import Feats from './views/Feats/Feats.tsx'
 // import ParallaxSection from './components/bgComponent.tsx'
 
 function App():React.ReactElement {
@@ -17,7 +17,7 @@ function App():React.ReactElement {
       <main className='z-40 max-w-[1400px]'>
             <HeroSection/>
             {/* <ParallaxSection/> */}
-            <Features/>
+            <Feats/>
             <Testimonys/>
             <Pricing/>
             <Contact/>  
